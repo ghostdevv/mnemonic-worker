@@ -18,9 +18,11 @@ pub async fn main(req: Request, env: Env, _ctx: worker::Context) -> Result<Respo
     let router = Router::new();
 
     router
-        // .get("/", |_, _| {
-        //     Response::redirect(Url::from("https://github.com/ghostdevv/mnemonic-worker"))
-        // })
+        .get("/", |_, _| {
+            Response::redirect(Url::parse(
+                "https://github.com/ghostdevv/mnemonic-worker#routes",
+            )?)
+        })
         .get("/new", |_, _| {
             let bytes = get_random_buf().unwrap();
             let result = mnemonic::to_string(&bytes);
