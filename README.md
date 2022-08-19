@@ -1,6 +1,6 @@
 # Mnemonic Worker
 
-This worker generates mnemonic phrases. It uses the rust (mnemonic crate)[https://crates.io/crates/mnemonic] and (getrandom)[https://crates.io/crates/getrandom]
+This worker generates mnemonic phrases. It uses the rust [mnemonic crate](https://crates.io/crates/mnemonic) and [getrandom](https://crates.io/crates/getrandom)
 
 # Routes
 
