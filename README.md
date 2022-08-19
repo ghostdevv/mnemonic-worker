@@ -2,6 +2,11 @@
 
 This worker generates mnemonic phrases. It uses the rust [mnemonic crate](https://crates.io/crates/mnemonic) and [getrandom](https://crates.io/crates/getrandom)
 
+# Use
+
+You can use my hosted version here: https://mnemonic.willow.sh/
+Or host your own copy!
+
 # Routes
 
 ## GET /new
