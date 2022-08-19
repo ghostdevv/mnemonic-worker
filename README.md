@@ -4,8 +4,8 @@ This worker generates mnemonic phrases. It uses the rust [mnemonic crate](https:
 
 # Use
 
-You can use my hosted version here: https://mnemonic.willow.sh/
-Or host your own copy!
+- You can use my hosted version here: https://mnemonic.willow.sh/
+- Or host your own copy!
 
 # Routes
 
