@@ -1,0 +1,12 @@
+name = "mnemonic-worker"
+workers_dev = true
+
+main = "build/worker/shim.mjs"
+compatibility_date = "2022-01-20"
+
+[build]
+command = "cargo install worker-build && worker-build --release"
+
+[[rules]]
+globs = [ "**/*.wasm" ]
+type = "CompiledWasm"
