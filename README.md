@@ -9,7 +9,7 @@ This worker generates mnemonic phrases. It uses the rust [mnemonic crate](https:
 
 # Routes
 
-## GET /new
+## GET /new (https://mnemonic.willow.sh/new)
 
 Returns an array of 24 words. For example:
 
